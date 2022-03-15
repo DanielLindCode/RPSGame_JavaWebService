@@ -43,7 +43,7 @@ public class matchBean {
 	
 	public String toJsonString() 
 	{
-		String pattern = "{ \"Match\": \"%s\", \"Wins\": \"%s\", \"Losses\": \"%s\", \"Ties\": \"%s\" ";
+		String pattern = "{ \"Match\": \"%s\", \"Wins\": \"%s\", \"Losses\": \"%s\", \"Ties\": \"%s\" }";
 
 		String out = String.format(pattern, Integer.toString(this.gameCount), this.win, this.loss, this.tie);
 
